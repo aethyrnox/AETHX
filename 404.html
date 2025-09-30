@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>404 — NOT FOUND!</title>
+
+  <!-- Font (optional) -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+
+    /* Mini layout biar gak perlu Bootstrap */
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Arvo", serif;
+      background: #fff;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+    .row { display: flex; flex-wrap: wrap; }
+    .col-sm-12 { width: 100%; }
+    .text-center { text-align: center; }
+
+    /*======================
+        404 page
+    =======================*/
+    .page_404 {
+      padding: 40px 0;
+    }
+    .page_404 img { width: 100%; }
+
+    .four_zero_four_bg {
+      background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+      height: 500px;
+      background-position: center;
+      background-size: cover;
+      display: grid;
+      place-items: center;
+      border-radius: 16px;
+    }
+    .four_zero_four_bg h1 {
+      font-size: 60px;
+      margin: 0;
+      color: #111;
+      text-shadow: 0 2px 8px rgba(0,0,0,.15);
+    }
+
+    .contant_box_404 {
+      margin-top: -50px;
+      text-align: center;
+    }
+    .contant_box_404 .h2 {
+      font-size: 28px;
+      margin: 0 0 8px;
+    }
+    .contant_box_404 p {
+      margin: 0 0 16px;
+      color: #444;
+    }
+
+    .link_404 {
+      color: #fff !important;
+      padding: 10px 20px;
+      background: #39ac31;
+      margin: 20px 0;
+      display: inline-block;
+      border-radius: 999px;
+      text-decoration: none;
+      transition: transform .12s ease, opacity .12s ease;
+    }
+    .link_404:active { transform: scale(.98); }
+    .link_404:hover { opacity: .9; }
+  </style>
+</head>
+<body>
+  <section class="page_404">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="text-center">
+            <div class="four_zero_four_bg">
+              <h1 class="text-center">not found 404</h1>
+            </div>
+
+            <div class="contant_box_404">
+              <h3 class="h2">gada cok, balik aja lu sana</h3>
+              <p>cari aja yang ada dan ngertiin kamu — darkd3mand</p>
+              <a href="p1.html" class="link_404">Balik</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
