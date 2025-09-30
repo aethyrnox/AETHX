@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <title>AETHX-HUB Login 🍂</title>
+  
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="icon" type="image/png" href="assets/icon.png" />
+<link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+  <div class="center">
+    <div class="login-card">
+      <div class="login-head">
+        <img src="assets/icon.png" alt="AETHX Icon" />
+        <h2>Selamat datang di AETHX-HUB🍂</h2>
+      </div>
+      <form id="loginForm" class="login-body">
+        <div class="form-row">
+          <label for="username">Username</label>
+          <input id="username" type="text" autocomplete="username" required />
+        </div>
+        <div class="form-row">
+          <label for="password">Password</label>
+          <input id="password" type="password" autocomplete="current-password" required />
+        </div>
+        <div class="err" id="errorBox"></div>
+        <div class="row-actions">
+          <button class="btn primary" type="submit">Login</button>
+          <button class="btn" type="button" id="registerBtn">Register</button>
+          <span class="helper">Tip guest, gunakan <code>guest:guest123</code></span>
+        </div>
+      </form>
+      <div class="footer">Created by <strong>darkd3mand- as Rahmatt 🐢</strong> <br>Copyright ©️ 2025 AETHYRNOX</div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+  <script>
+    initLogin();
+  </script>
+</body>
+</html>
