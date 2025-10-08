@@ -95,7 +95,7 @@ function renderNav(currentPage){
   const nav = byId('pager');
   if(!nav) return;
   nav.innerHTML = '';
-  for(let i=1; i<=8; i++){
+  for(let i=1; i<=10; i++){
     const a = document.createElement('a');
     a.className = 'navbtn' + (i===currentPage ? ' active' : '');
     a.textContent = i;
